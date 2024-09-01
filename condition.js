@@ -95,5 +95,44 @@
 //     console.log(price)
 // }
 
+//     ********     Result Toyri     ******
+
+// const mark = 95;
+// if(mark < 33){
+//     console.log('Fail')
+// }
+// else if(mark < 40){
+//     console.log(1.00.toFixed(2))
+//     console.log('D')
+// }
+// else if(mark < 50){
+//     console.log(2.00.toFixed(2))
+//     console.log('C')
+// }
+// else if(mark < 60){
+//     console.log(3.00.toFixed(2))
+//     console.log('B')
+// }
+// else if(mark < 70){
+//     console.log(3.50.toFixed(2))
+//     console.log('A-')
+// }
+// else if(mark < 80){
+//     console.log(4.00.toFixed(2))
+//     console.log('A')
+// }
+// else{
+//     console.log(5.00.toFixed(2))
+//     console.log('A+')
+// }
+
+// const price = 400;
+// if(price >= 500){
+//     console.log('You will get a drinks')
+// }
+// else{
+//     console.log('You will get back 30 taka')
+// }
+
 
 
