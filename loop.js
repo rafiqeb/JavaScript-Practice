@@ -18,8 +18,9 @@
 // let number = 0;
 // while(number < 5){
 //     console.log('Ami pabo', number);
-//     // number = number + 1;
-//     number++;
+    // number = number + 1;
+    // number += 1;             Same ++
+    // number++;
 // }
 
 // let number = 1;
@@ -51,7 +52,20 @@
 //     number++;
 // }
 
+// let number = 1;
+// let sum = 0;
+// while(number <= 10){
+//     console.log(number)
+//     if(number % 2 === 0){
+//         sum = sum + number;
+//         console.log('sum', sum)
+//     }
+//     number++;
+// }
+
+
 //     ******* Even   Number  odd number  ******
+
 // let number = 1;
 // while(number  <= 10){
 //     console.log(number);
@@ -70,23 +84,126 @@
 //     number++;
 // }
 
-//      *******     Foor Loop      *********
+//      *******     Foor Loop  Structure    *********
 
-// for(let number = 0; number <= 20; number = number+2){
+// for(first part ; second part ; third part){
+//     loop statement hobe
+// }
+
+// for(let number = 1; number <= 10; number++){
 //     console.log(number)
 // }
 
-// for(number = 1; number <= 20; number = number+2){
-//     console.log(number)
+//         **********   Odd Even Number   *********
+
+// for(let i = 1; i <= 10; i++){
+//     console.log(i)
 // }
 
-// let n = 1;
-// while(n <= 10){
-//     console.log(n);
-//     if(n % 2 === 0){
-//         console.log('even n:', n)
+// for(let i = 0; i <= 20; i = i+2){
+//     console.log(i)
+// }
+
+// for(let i = 1; i <= 20; i = i+2){
+//     console.log(i)
+// }
+
+// for(let i = 0; i < 5; i++){
+//     console.log('hello', i)
+// }
+
+//      ***********    Sum   For Loop  *****
+
+// let sum = 0;
+// for(let i = 11; i <= 20; i++){
+//     console.log(i)
+//     sum = sum + i;
+// }
+// console.log('sum:', sum)
+
+// for(let i = 10; i >= 0; i--){
+//     console.log(i)               Ulta man
+// }
+
+//                ******** Home task  *********
+
+// let num = 81;
+// while(num <= 131){
+//     console.log(num)
+//     if(num % 2 === 0){
+//         console.log('Jor', num)
 //     }
-//     n++;
+//     num++;
 // }
 
+// let num = 81;
+// while(num <= 131){
+//     // console.log(num)
+//     if(num % 2 === 1){
+//         console.log('Bijor', num)
+//     }
+//     num++;
+// }
 
+// for(let i = 80; i <= 131; i = i+2){
+//     console.log(i)
+// }
+
+// for(let i = 1; i <= 30; i++){
+//     if(i % 5 === 0)
+//         console.log(i)
+// }
+
+// for(let i = 1; i <= 30; i++){
+//     if(i % 3 === 0 || i % 5 === 0)
+//         console.log(i)
+// }
+
+// for(let i = 1; i <= 30; i++){
+//     if(i % 3 === 0 && i % 5 === 0)
+//         console.log(i)
+// }
+// let total = 0;
+// for(let i = 1; i <= 20; i++){
+//         if(i % 3 === 0){
+//             console.log(i)
+//             total = total + i;
+//             console.log('total', total)
+//         }
+            
+//     }
+
+//      ***********  Break    **********
+
+// for(let i = 0; i < 15 ; i++){
+//     console.log(i)
+//     if(i >= 5){
+//         break
+//     }
+// }
+
+// let num = 0;
+// while(num < 15){
+//     console.log(num)
+//     if(num >= 5){
+//         break
+//     }
+//     num++;
+// }
+
+//      **********   Continue  *******
+// for(let i = 0; i < 10; i++){
+//     if(i % 2 === 1){
+//         continue
+//     }
+//     console.log(i)
+// }
+
+// let n = 0;
+// while(n < 50){
+//     n++;
+//     if(n % 5 !== 0){
+//         continue;
+//     }
+//     console.log(n)
+// }
