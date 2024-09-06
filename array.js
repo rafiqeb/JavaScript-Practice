@@ -69,3 +69,41 @@
 // console.log(place)
 // place.pop()
 // console.log(place)
+
+//     *********  Array 2nd Part   ***** Array te Loop er use   ******
+
+// const friends = ['Rahim', 'Karim', 'Hablu', 'Bablu'];
+// for(const friend of friends){
+//     console.log(friend)
+// }
+// for(let i = 0; i < friends.length; i++){
+//     console.log(i)
+//     console.log(friends[i])
+// }
+
+// const numbers = [10, 12, 500, 'village', 14, 16, 200, 20];
+// for(let i = 0; i < numbers.length; i++){
+//     console.log(numbers[i])
+// }
+// let n = 0;
+// while(n < numbers.length){
+//     console.log(numbers[n])
+//     n++;
+// }
+
+// const numbers = [1, 2, 3, 4, 5,];
+// console.log(numbers)
+// numbers.reverse()
+// console.log(numbers)
+
+//     ************ Short Array  Ascending, Descending *********
+
+// const person = ['rakib', 'adib', 'sakib', 'nokib'];
+// const sortedPersons = person.sort()
+// console.log(sortedPersons)
+
+// const numbers = [4, 8, 5, 9, 55, 1, 15, 3];
+// const number_asc = [...numbers].sort(function (a, b) { return a - b})
+// const number_dsc = [...numbers].sort(function (a, b) { return a - b})
+// console.log(number_asc);
+// console.log(number_dsc);
