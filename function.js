@@ -104,3 +104,31 @@
 // }
 // result = sum(4,5);
 // console.log(result)
+
+//     *********  Function Sum  **********
+
+// function sumOfNumbers(numbers){
+//     let sum = 0;
+//     for(const number of numbers){
+//         console.log(number)
+//         sum = sum + number;
+//     }
+//     return sum;
+// }
+// const nums = [50, 60, 70, 80]
+// const sum = sumOfNumbers(nums);
+// console.log('total', sum)
+
+// function evenNumber(numbers){
+//     let sum = 0;
+//     for(const number of numbers){
+//         if(number %2===0){
+//             console.log(number)
+//             sum = sum + number;
+//         }
+//     }
+//     return sum;
+// }
+// const numbers = [14, 15, 16, 17, 18]
+// const sum = evenNumber(numbers)
+// console.log('total', sum)
